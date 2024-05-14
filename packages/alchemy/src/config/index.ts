@@ -13,3 +13,4 @@ export { DEFAULT_IFRAME_CONTAINER_ID, createConfig } from "./createConfig.js";
 export { defaultAccountState } from "./store/client.js";
 export type * from "./types.js";
 export { cookieStorage, cookieToInitialState } from "./utils/cookies.js";
+export { hydrate } from "./hydrate.js";
